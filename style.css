@@ -1,0 +1,314 @@
+:root{
+    --first:#121212;
+    --second:#B2FFA6;
+}
+.container{
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+body{
+    margin: 0 0;
+}
+header{
+    width: 2000px;
+    height: 100px;
+}
+header,footer{
+    background-color:var(--first);
+}
+.consultation{
+    background-color:var(--second);
+    border-radius: 5%;
+    border: 1px solid var(--second);
+}
+.learn-more {
+    background-color: var(--second);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid var(--second);
+    border-radius: 5%;
+    width: 300px;
+    height: 80px;
+    text-transform: uppercase;
+    font-size: large;
+    font-family: "Oswald";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35.57px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+li>a{
+    color: white;
+}
+.first-title{
+    font-family: "Raleway";
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 75.14px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    text-transform: capitalize;
+}
+.nav-site{
+    font-family: "Oswald";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35.57px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-transform: uppercase;
+        text-decoration: none;
+        
+}
+.list-nav-site{
+    display: flex;
+        gap: 100px;
+        margin-top: 0px;
+        padding-inline-start: 0;
+        padding-top: 25px;
+}
+.look-after-dogs{
+    font-family: "Raleway";
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 75.14px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-transform: capitalize;
+}
+.nav-site:hover{
+    color: #B2FFA6;;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+div{
+    list-style-type: none
+}
+.few_words{
+    font-family: "Raleway";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 46.96px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+}
+.info-about-us{
+    font-family: "Raleway";
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 37.57px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.info-about-us-2{
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.div-button{
+    display: flex;
+    justify-content: flex-start;
+}
+.consultation{
+    font-family: "Oswald";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35.57px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-transform: uppercase;
+        padding-left:80px ;
+        padding-right: 80px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+}
+.item{
+    font-family: "Raleway";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.18px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.list-achievments{
+    font-family: "Raleway";
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.57px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.services{
+    font-family: "Raleway";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 46.96px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.text-about-services{
+    font-family: "Raleway";
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 37.57px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-left: 302px;
+        margin-right: 293px;
+}
+.type-of-services{
+    font-family: "Raleway";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.18px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+
+.rights{
+    font-family: "Raleway";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.18px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+}
+footer p{
+    font-family: "Raleway";
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 46.96px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+}
+.button-all-services{
+font-family: Oswald;
+   font-size: 24px;
+   font-weight: 400;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: white;
+    border: 3px solid var(--second);
+    border-radius: 5%;
+    padding: 15px 80px 15px 80px;
+    margin-top: 85px;
+    margin-bottom: 60px;
+    width: 356px;
+    height: 66px;
+    background-color: #EFEFEF;
+    text-transform: uppercase;
+}
+.container{
+    text-align: center;
+}
+
+.about-us{
+    background-color: #EFEFEF;
+}
+.info-about-services{
+    background-color: #EFEFEF;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advertisement{
+    display: flex;
+    justify-content: space-between;
+}
+.section-about-us{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.list-services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.achievments{
+    display: flex;
+}
+.title-services{
+    display: flex;
+    justify-content: center;
+}
+.div-info-services{
+    display: flex;
+    justify-content: center;
+}
+.advantages-list{
+    display: flex;
+    max-width: 926x;
+    max-height: 506px;
+    gap: 200px;
+}
+.advantages-li{
+    width: 325px;
+}
+.cutedog{
+    width: 250px;
+}
+.img-services{
+    width: 320px;
+}
+.retrivier{
+    width:550px;
+}
+.blackandwhitedog{
+    width: 575px;
+}
+.bottom-logo{
+    font-family: "Raleway";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 46.96px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+}
+.logo-bottom{
+    font-family: "Raleway";
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 46.96px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #ffffff;
+}
